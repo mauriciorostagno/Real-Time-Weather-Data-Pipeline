@@ -9,7 +9,7 @@ It is fully automated with Windows Task Scheduler and made with principies of pi
 The goal of this project was to **simulate a real-world ETL pipeline**, by extracting data from an external API, transforming it, and loading it into a cloud data warehouse using only free tools.
 
 I wanted to explore how to:
-- Design a simple but scalable pipeline with cloud tools.
+- Design a simple but scalable pipeline with cloud tools, in this case I used Atom.
 - Solve the challenge of working under Google BigQuery Free Tier restrictions, for example cannot insert streaming.
 - Automate the process without paid platforms.
 
@@ -20,6 +20,7 @@ The reason I chose this project because **real-time weather data is one of the b
 | Technology | Reason |
 |------------|--------|
 | Python     | Perfect for API requests, data processing, and cloud interactions. |
+| Atom     | A perfect text editos and comfortable for making and running python scripts |
 | Google BigQuery | Cloud data warehouse with free-tier access and a lot of functionalities. |
 | OpenWeather API | For real-time weather data via a simple REST API. |
 | pandas     | Easy to structure and export the data for batch loading to BigQuery. |
