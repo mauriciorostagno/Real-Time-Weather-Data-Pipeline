@@ -22,6 +22,14 @@ The reason I chose this project because **real-time weather data is one of the b
 | Python     | Perfect for API requests, data processing, and cloud interactions. |
 | Google BigQuery | Cloud data warehouse with free-tier access and a lot of functionalities. |
 | OpenWeather API | For real-time weather data via a simple REST API. |
-| pandas     | Makes it easy to structure and export the data for batch loading. |
-| Windows Task Scheduler | A free and effective way to automate scripts on a local machine. |
-| dotenv     | Ensures that sensitive credentials are not exposed in the code. |
+| pandas     | Easy to structure and export the data for batch loading to BigQuery. |
+| Windows Task Scheduler | A free and effective way to automate scripts on a local machine (in this case). |
+| dotenv     | It makes that sensitive credentials are not exposed in the code. |
+
+## Key Features
+
+- Real-time API extraction.
+- Batch loading to BigQuery (compatible with Free Tier).
+- Secure credential management with `.env` files.
+- Full automation via Windows Task Scheduler.
+- Professional project structure, GitHub-ready.
