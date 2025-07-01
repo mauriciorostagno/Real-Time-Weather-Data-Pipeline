@@ -51,6 +51,9 @@ Exposing API keys, service account keys or computer information in public reposi
 The project needed to run automatically at regular intervals (mostly daily) without using cloud paid tools.
 **Solution:** Configured Windows Task Scheduler (only in this case) to execute the Python script every day at the morning.
 
+## Final Dataset
+<img src="images/bigquery-table.png" alt="BigQuery Table" width="800"/>
+
 ## Potential Improvements
 
 - Expand the pipeline to collect weather data from different cities at the same time at different times (next project).
