@@ -2,6 +2,8 @@
 <img src="images/introduction.jpg" alt="introduction" width="700"/>
 
 ---
+<img src="images/atom-logo.jpg" alt="Atom Logo" width="110"/> <img src="images/bigquery-logo.png" alt="BigQuery Logo" width="110"/> <img src="images/dotenv-logo.png" alt="dotenv Logo" width="110"/> <img src="images/pandas-logo.jpg" alt="Pandas Logo" width="110"/> <img src="images/openweather-logo.png" alt="OpenWeather Logo" width="110"/>  <img src="images/window-task-scheduler-logo.png" alt="Window Task Scheduler Logo" width="110"/>
+
 This project is a **real-time weather data pipeline** designed to collect, store, and automate the extraction of weather information using the OpenWeather API, Google BigQuery and Python.  
 It is fully automated with Windows Task Scheduler and made with principies of pipeline-code standards.
 
