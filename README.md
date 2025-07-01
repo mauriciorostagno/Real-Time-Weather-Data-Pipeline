@@ -41,15 +41,15 @@ The reason I chose this project because **real-time weather data is one of the b
 
 ### Challenge 1: BigQuery Free Tier Limitations
 The free tier does not allow **streaming inserts.**
-✅ **Solution:** In this case I switched to batch loads via CSV files. Automated and continued successfully the process.
+**Solution:** In this case I switched to batch loads via CSV files. Automated and continued successfully the process.
 
 ### Challenge 2: Credential Security
 Exposing API keys, service account keys or computer information in public repositories is a common security risk.
-✅ **Solution:** Implemented `python-dotenv` to read environment variables securely from a local `.env` file.
+**Solution:** Implemented `python-dotenv` to read environment variables securely from a local `.env` file.
 
 ### Challenge 3: Automation Without Scheduler
 The project needed to run automatically at regular intervals (mostly daily) without using cloud paid tools.
-✅ **Solution:** Configured Windows Task Scheduler (only in this case) to execute the Python script every day at the morning.
+**Solution:** Configured Windows Task Scheduler (only in this case) to execute the Python script every day at the morning.
 
 ## Potential Improvements
 
