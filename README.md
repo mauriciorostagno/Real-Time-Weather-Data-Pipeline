@@ -1,5 +1,5 @@
 # Real Time Weather Data Pipeline
-<img src="images/introduction.jpg" alt="introduction" width="300"/>
+<img src="images/introduction.jpg" alt="introduction" width="800"/>
 
 ---
 This project is a **real-time weather data pipeline** designed to collect, store, and automate the extraction of weather information using the OpenWeather API, Google BigQuery and Python.  
